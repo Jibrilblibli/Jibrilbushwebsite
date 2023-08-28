@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UFT-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <title>Personal portfolio website - Jibril</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e226a3d9fe.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header"> 
+    <div class="container">
+        <nav>
+            <img src="images/coollogo_com-2986540.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Marketing expert</p>
+            <h1>Hi, I'm <span>Jibril</span></h1>
+        </div>
+    </div>
+</div>
+<!--------------about------------>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/Data-driven.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    <br>Hello there!</br>
+                    <br>I'm a marketing expert, I've started my online marketing journey 1 year ago.</br>
+                    <br>I used to work for an SMMA (Social media marketing agency) as a copywritter.
+                    <br>But then, I discovered that this path wasn't aligned with my true aspirations.
+                    <br>And this is why I have created my own agency.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------Services----------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-envelope"></i>
+                <h2>Automated Email/SMS marketing</h2>
+                <p>
+                  <br>  I will help you get the best results using the power of automation.
+                </p>
+                <a href="nothing.html">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-person"></i>
+                <h2>Customer relationship management</h2>
+                <p>
+                  <br>  I will facilitate your communication with your audience using our CRM. 
+                </p>
+                <a href="nothing.html">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-filter-circle-dollar"></i>
+                <h2>Funnel creation</h2>
+                <p>
+                   <br> I will create you an effective funnel that will attract your prospects.
+                </p>
+                <a href="nothing.html">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--------------Portfolio------------>
+
+<div id="portfolio">
+    <div class="container">
+     <h1 class="sub-title">My Work</h1>
+     <div class="work-list">
+        <div class="work">
+            <img src="images/Pitch Deck Template.png">
+            <div class="layer">
+                <h3>Email/SMS</h3>
+                <p>Using the power of automation</p>
+                <a href="nothing.html"><i class="fa-solid fa-square-up-right"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/Pitch Deck Template(1).png">
+            <div class="layer">
+                <h3>Customer relationship management</h3>
+                <p>All messages in one inbox</p>
+                <a href="nothing.html"><i class="fa-solid fa-square-up-right"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/Pitch Deck Template15494.png">
+            <div class="layer">
+                <h3>Retargeting</h3>
+                <p>Follow your propects across the entire web</p>
+                <a href="images/green screen background replacement 4k.mp4"><i class="fa-solid fa-square-up-right"></i></a>
+            </div>
+        </div>
+     </div>
+     <a href="nothing.html" class="btn">See more</a>
+    </div>
+</div>
+
+<!--------------Contact------------>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-solid fa-envelope"></i>jibrilbouchmama@gmail.com</p>
+                <div class="social-icons">
+                    <a href="https://web.facebook.com/profile.php?id=100091447604857"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/jibril_bu/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/jibril-b-0b2234258/"><i class="fa-brands fa-linkedin"></i></a> 
+                </div>
+                <a href="images/" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form <form action="https://formsubmit.co/fendybusiness4@gmail.com" method="POST" />
+                    <input type="text"name="name" placeholder="Your name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6"placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copy-right">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> Jibril</p>
+    </div>
+</div>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    } 
+     function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
